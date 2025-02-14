@@ -1,0 +1,6 @@
+[submodule "Code/tnv1000-driver"]
+	path = Code/tnv1000-driver
+	url = https://github.com/avrovulcanxh607/tnv1000-driver
+[submodule "Code/tnv1000-opi"]
+	path = Code/tnv1000-opi
+	url = https://github.com/avrovulcanxh607/tnv1000-opi
