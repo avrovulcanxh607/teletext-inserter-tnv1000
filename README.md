@@ -17,8 +17,16 @@ The Raspberry Pi version requires the teletext be provided with the bytes in rev
 
 The PCB files were exported from EasyEDA - I'm not especially sure how one goes about re-importing them for use... but that sounds like a you problem. If it proves too impossible this is one situation where I may look into it if someone asks.
 
+Oh yeah, the ATTiny13... That was a crude solution to a problem I had sequencing the power supplies coming up. Basically all it does is bring up each rail about 500ms apart. I can't find the code for it, but if you've figured everything else out you should have no problem figuring that out. Or just tie all the power supplies permanently on, hope for the best..!
+
+If you do decide to do something cool with this design, please consider posting photos of it to Bluesky and tagging "@nmsni.co.uk", I would love to see it!
+
+Also... consider kicking a quid or two my way at [Ko-Fi](https://ko-fi.com/avrovulcanxh607). It took a fair bit of time to figure this out.
+
 Useful Resources:
 
 [ADV7182a Product Info](https://www.analog.com/en/products/adv7182a.html)
+
 [ADV7391 Product Info](https://www.analog.com/en/products/adv7391.html)
+
 [TNV1000 Manual/Notes](https://internal.nathanmediaservices.co.uk/downloads/TNV-1000%20manual.pdf)
